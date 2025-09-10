@@ -8,7 +8,7 @@ connectDB();
 
 const app = express();
 app.use(cors({
-  origin: 'https://bookreview-frontend-git-master-sneha-tidkes-projects.vercel.app/', // Replace with your actual Vercel frontend URL
+  origin: 'https://book-review-mzv4.onrender.com/', // Replace with your actual Vercel frontend URL
   credentials: true
 }));
 app.use(express.json());
